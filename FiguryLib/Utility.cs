@@ -40,7 +40,7 @@ namespace FiguryLib
         public readonly double Y;
         public readonly double Z;
         public Wektor3D(double x = 0, double y = 0, double z = 0) { X = x; Y = y; Z = z; }
-        public override string ToString() => $"[{X}; {Y}]";
+        public override string ToString() => $"[{X}; {Y}; {Z}]"; 
         public double[] ToArray() => new double[3] { X, Y, Z };
     }
 }
